@@ -1,0 +1,12 @@
+//https://onecompiler.com/javascript/442852ngn
+
+const book = {
+  title : "Six of Crows",
+  author : "Leigh Burdago",
+  year : 2018,
+  genres : "YA adventure fantasy"
+};
+
+for(let key in book){
+  console.log(`${key}: ${book[key]}`);
+}
